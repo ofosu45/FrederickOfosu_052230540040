@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        h1{
+            text-align: center;
+            background-color: #fbff00;
+            color:aliceblue;
+        
+        }
+        h2 {
+            background-color: #1100ff;
+        }
+        footer{
+            background-color: #fbff00;
+            color:rgb(0, 0, 0);
+            text-align: center;
+            padding:0cm;
+        }
+        body{
+            background-color:rgb(255, 255, 255);
+        }
+        .about {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0rem;
+  min-height: 0rem;
+}
+
+.about .about-image {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 6;
+  grid-column: 1 / 7;
+  height: 100%;
+  background-image: url(./../../images/pho.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-mix-blend-mode: screen;
+}
+
+.about .about-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.about .about-desc {
+  grid-column: 7 / -1;
+}
+
+.about .about-desc h2 {
+  color: #ffffff;
+  padding: 1rem;
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.about .about-desc p {
+  color: #333333;
+  padding: 1rem;
+  font-size: 1.3;
+  line-height: 1.3;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.about .about-desc input {
+  margin: 2rem 1rem;
+}
+
+
+    </style>
+  
+</head>
+<body>
+    <header>
+        <h1>About KSTU</h1>
+    </header>
+    <!-- Add more details about kstu -->
+
+    <!-- ====markup about section==== -->
+    <section id="about" class="about">
+        <div class="about-image">
+          <img src="./images/bui.jpg" alt="" />
+        
+        </div>
+
+        <div class="about-desc">
+          <h2>a word about us</h2>
+          <p>
+            Kumasi Technical University was established in 1954 as Kumasi Technical Institute (K. T. I. ) to offer craft courses.<br>
+            In 1963, the Institute was converted to a non-tertiary Polytechnic status under the Ghana Education Service to start offering,
+            in addition, technician diploma and sub- professional courses.<br>
+            The Polytechnic Law, 1992 (PNDC L.321) elevated the Polytechnic to a tertiary institution to
+            provide high calibre skilled manpower with reference to manufacturing, commerce, science and 
+            technology to act as a catalyst for technological development. As a Polytechnic it was one of the famous,
+            elegant and vibrant Polytechnics in Ghana.<br>
+            <b>The Technical University Act 2016, (Act 922) </b>converted Kumasi Polytechnic to the
+            present Kumasi Technical University with the aim of providing higher education in engineering, 
+            applied arts, science technology based disciplines, technical and vocational training.<br>
+            It is a spectacularly beautiful institution, which is located at the heart of the
+            Garden city of West Africa, the capital city of the Ashanti Region of Ghana (Kumasi). <br>
+            It has within the period of its existence become an important centre for the training not 
+            only for Ghana but also for other African countries.
+            
+            
+            
+            
+          </p>
+          
+          
+                    
+        </div>
+      </section>
+
+      
+   
+    
+         
+    <footer>
+        <p>&copy; 2024 About Kumasi Technical University. All rights reserved.</p>
+    </footer>
+</body>
+</html>
